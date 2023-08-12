@@ -1,0 +1,74 @@
+I-Logix-RPY-Archive version 8.6.0 C++ 2071527
+{ ISubsystem 
+	- _id = GUID e7ba88f0-8cf9-4fc2-95f1-70f09f4567a0;
+	- _myState = 8192;
+	- _name = "Default";
+	- _lastID = 1;
+	- weakCGTime = 6.16.2023::18:41:4;
+	- strongCGTime = 12.31.1969::22:0:0;
+	- _defaultComposite = GUID 759ed811-b774-439e-8165-8957133d7dd0;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 759ed811-b774-439e-8165-8957133d7dd0;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 12.31.1969::22:0:0;
+			- strongCGTime = 12.31.1969::22:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 603c8cdd-cd43-4497-8b78-5696b693849b;
+			- _myState = 8192;
+			- _name = "MyClass";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "overview";
+				- _id = GUID 24de3e97-f802-45cc-82c6-a52e31cd2de8;
+			}
+			- weakCGTime = 6.16.2023::18:41:38;
+			- strongCGTime = 6.16.2023::18:40:43;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID a29fa696-1fb4-4d5b-9504-6cb4f04e6cc5;
+					- _myState = 8192;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "std::cout << \"Hello, world!\" << std::endl;";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::22:0:0;
+}
+
