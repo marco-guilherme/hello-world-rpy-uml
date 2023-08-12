@@ -18,7 +18,7 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- m_ptMaxPositionY = -23;
 				- m_nLeft = 22;
 				- m_nTop = 22;
-				- m_nRight = 1314;
+				- m_nRight = 1058;
 				- m_nBottom = 413;
 			}
 			- _wasOpenedOnCloseProject = 1;
@@ -30,13 +30,13 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _name = "overview";
 				- _id = GUID 24de3e97-f802-45cc-82c6-a52e31cd2de8;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1957 1032 ;
+			- _UpLeft = 389 61 ;
+			- _DownRight = 1127 603 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\Documents and Settings\\Administrador\\Desktop\\rhapsody-projects\\hello-world\\hello-world";
+	- _fullName = "\\\\vmware-host\\Shared Folders\\shared-folder\\rhapsody-projects\\hello-world-rpy-uml\\rpy\\hello-world";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
